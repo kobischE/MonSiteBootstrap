@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Elise KM-bootstrap</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li ><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li class="active"><a href="contact.html" class="smoothscroll">Contact</a></li>
+        </ul>
+      </div>
+    
+    </div>
+  </div>
+
+  <div id="contactwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+<div id="contact">        
+  <form id="myForm">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="centered">Sign up</h2>
+           
+          <div class="form-group">
+           <label class="form_col" for="lastName">Nom </label>
+           <input name="lastName" id="lastName" type="text" />
+           <span class="tooltip">Un nom ne peut pas faire moins de 2 caractères</span>
+           <br /><br />
+          </div>
+         
+          <div class="form-group">
+           <label class="form_col" for="firstName">Prénom </label>
+           <input name="firstName" id="firstName" type="text" />
+           <span class="tooltip">Un prénom ne peut pas faire moins de 2 caractères</span>
+           <br /><br />
+         </div>
+
+         <div class="form-group">
+          <label class="form_col" for="login">Pseudo </label>
+          <input name="login" id="login" type="text" />
+          <span class="tooltip">Le pseudo ne peut pas faire moins de 4 caractères</span>
+          <br /><br />
+         </div>
+
+         <div class="form-group">
+          <label class="form_col" for="email">Email </label>
+          <input name="email" id="email" type="text" />
+          <span class="tooltip">L'adresse email doit contenir un nom d'utilisateur, le caractère @ et un nom de domaine</span>
+          <br/><br/>
+        </div>
+      
+        <div class="form-group">
+         <label class="form_col" for="country">Pays </label>
+         <select name="country" id="country">
+           <option value="none">Where are you from ? </option>
+            <option value="en">Angleterre</option>
+            <option value="us">États-Unis</option>
+             <option value="fr">France</option>
+         </select>
+         <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
+         <br /><br />
+        </div> 
+      
+        <div class="form-group">
+         <span class="form_col"></span>
+         <label><input name="news" type="checkbox"/>give me some news pleeease!!!</label>
+         <br /><br />
+        </div>
+
+         <span class="form_col"></span>
+         <div class="form-send"> 
+         <input type="submit" class="btn btn-large" value="Sign In" />
+        </div>
+       
+
+    </div>
+   </div>
+  </div>
+ </form>
+</div>
+
+
+<div id="social">
+  <div class="container">
+    <div class="row centered">
+      
+      <div class="col-lg-4 col-xs-4">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+         </div>
+      <div class="col-lg-4 col-xs-4">
+        <a href="https://fr.linkedin.com"><i class="fa fa-linkedin"></i></a>
+         </div>
+      <div class="col-lg-4 col-xs-4">
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+         </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
